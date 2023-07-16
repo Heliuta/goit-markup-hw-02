@@ -11,13 +11,11 @@
     --text-white-op06: rgba(255, 255, 255, 0.6);
 
     /*Цвет фона кнопок*/
-  
     --btn-blue: rgba(33, 150, 243, 1);
-    --btn-white: rgba(245, 244, 250, 1);
+    --btn-gray: rgba(245, 244, 250, 1);
 
     /* Цвет фона секций */
-
     --bcg-white:rgba(255, 255, 255, 1);
-    --bcg-gray:background: rgba(245, 244, 250, 1);
-    --bcg-dark-gray:background: rgba(47, 48, 58, 1);
+    --bcg-gray:rgba(245, 244, 250, 1);
+    --bcg-dark-gray:rgba(47, 48, 58, 1);
   }
