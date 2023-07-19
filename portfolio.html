@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>WebStudio</title>
 </head>
 <body>
-     <!-- Шапка сайта -->
-     <header class="header">
+    <!-- Шапка сайта -->
+    <header class="header">
         <a class="logo" href="">Web<span class="logo-black">Studio</span></a>
         <nav class="site-nav">
             <ul class="nav">
-                <li>
+                <li class="nav-link">
                     <a class="link" href="./index.html">Студія</a>
                 </li>
-                <li>
-                    <a class="link" href="">Портфоліо</a>
+                <li class="nav-link">
+                    <a class="link-current" href="">Портфоліо</a>
                 </li>
-                <li>
+                <li class="nav-link">
                     <a class="link" href="">Контакти</a>
                 </li>
             </ul>
 
-            <ul class="kontakts">
-                <li> 
-                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="contacts">
+                <li class="nav-link" > 
+                    <a class="link contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <li class="nav-link" >
+                    <a class="link contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </nav>
@@ -39,7 +42,7 @@
   <main>
     <!-- Секция Портфолио -->
     <section>
-        <h1 class="portfolio-title">Портфолио</h1>
+        <h1>Портфолио</h1>
         <ul class="buttons">
             <li>
                 <button class="btn" type="button" >Усі</button>
@@ -58,95 +61,86 @@
             </li>
         </ul>
 
-        <ul>
-            <li>
-              <a href="">
+        <ul class="projects">
+            <li class="projects-item">
+              <a href="" class="projects-link">
                 <img src="./img/techno.jpg" alt="img">
-                <h2 class="subtitle" >Технокряк</h2>
-                <p>Веб-сайт</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Технокряк</h2>
+                <p class="projects-text">Веб-сайт</p>
               </a>
             </li>
-            <li>
-                <a href="">
+            <li class="projects-item">
+                <a href="" class="projects-link">
                 <img src="./img/poster.jpg" alt="img" width="370">
-                <h2 class="subtitle" >Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
+                <p class="projects-text">Дизайн</p>
                 </a>
                
             </li>
-            <li>
-               <a href="">
+            <li class="projects-item">
+               <a href="" class="projects-link">
                 <img src="./img/seafood.jpg" alt="img" width="370" >
-                <h2 class="subtitle" >Ресторан Seafood</h2>
-                <p>Додаток</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Ресторан Seafood</h2>
+                <p class="projects-text">Додаток</p>
                </a>
             </li>
-            <li>
-               <a href="">
+            <li class="projects-item">
+               <a href="" class="projects-link">
                 <img src="./img/prime.jpg" alt="img" width="370">
-                <h2 class="subtitle" >Проєкт Prime</h2>
-                <p>Маркетинг</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Проєкт Prime</h2>
+                <p class="projects-text">Маркетинг</p>
                </a>
             </li>
-            <li>
-              <a href="">
+            <li class="projects-item">
+              <a href="" class="projects-link">
                 <img src="./img/boxes.jpg" alt="img" width="370">
-                <h2 class="subtitle" >Проєкт Boxes</h2>
-                <p>Додаток</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Проєкт Boxes</h2>
+                <p class="projects-text">Додаток</p>
               </a>
             </li>
-            <li>
-            <a href="">
+            <li class="projects-item">
+            <a href="" class="projects-link">
                 <img src="./img/inspiration.jpg" alt="img" width="370">
-                <h2 class="subtitle" >Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Inspiration has no Borders</h2>
+                <p class="projects-text">Веб-сайт</p>
             </a>
             </li>
-            <li>
-                <a href="">
+            <li class="projects-item">
+                <a href="" class="projects-link">
                 <img src="./img/limited-edition.jpg" alt="img" width="370">
-                <h2 class="subtitle" >Видання Limited Edition</h2>
-                <p>Дизайн</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Видання Limited Edition</h2>
+                <p class="projects-text">Дизайн</p>
                 </a>
             </li>
-            <li>
-               <a href="">
+            <li class="projects-item">
+               <a href="" class="projects-link">
                 <img src="./img/lab.jpg" alt="img" width="370">
-                <h2 class="subtitle" >Проєкт LAB</h2>
-                <p>Маркетинг</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Проєкт LAB</h2>
+                <p class="projects-text">Маркетинг</p>
                </a>
             </li>
-            <li>
-                <a href="">
+            <li class="projects-item">
+                <a href="" class="projects-link">
                 <img src="./img/groving-business.jpg" alt="img" width="370">
-                <h2 class="subtitle" >Growing Business</h2>
-                <p>Додаток</p>
-                <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <h2 class="projects-title">Growing Business</h2>
+                <p class="projects-text">Додаток</p>
                 </a>
             </li>
         </ul>
     </section>
   </main>
     
-      <!-- Подвал -->
-      <footer class="footer">
+       <!-- Подвал -->
+       <footer class="footer">
         <a class="logo" href="">Web<span class="logo-white">Studio</span></a>
         <address>
             <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
-            <ul class="footer-kontakts">
-                <li> 
-                    <a class="footer-links" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="footer-contakts">
+                <li class="footer-links" > 
+                    <a class="links" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a class="footer-links" href="tel:+380961111111">+38 096 111 11 11</a>
+                <li class="footer-links" >
+                    <a class="links" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
